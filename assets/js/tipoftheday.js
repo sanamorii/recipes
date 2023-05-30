@@ -19,11 +19,14 @@ const MSG = [
     "早上好中国，现在我有冰淇淋，我很喜欢冰淇淋！！！！",
     "A monad is just a monoid in the category of endofunctors",
     "segmentation fault",
+    "Exception in thread \"main\" java.lang.NullPointerException",
     "life is absolute pain",
     "vegemite 😋", 
     "actual tip: you can always add more but never add less",
     "www.youtube.com/watch?v=KYxsNJYgrgI",
-    "number one tip when it comes to cooking: don't"
+    "number one tip when it comes to cooking: don't",
+    "Curse you Perry the Platypus.",
+    "please do not the cat"
 ]
 
 function randomSplash(){
