@@ -9,29 +9,18 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/base.css">
     <script src="{{site.baseurl}}/assets/js/tipoftheday.js"></script>
     <script src="{{site.baseurl}}/assets/js/onload.js"></script>
-    <title>JIANSU COOKING</title>
+    <title>JIANSU COOKBOOK</title>
 </head>
 <body>
-    <article class="header">
-        <h1>jiansu cooking</h1>
-        <h3 id="splashtext">uh oh no splashtext 😔</h3>
-    </article>
+
+    {% include header.html %}
+
+    {% include navigation.html %}
 
     <article class="content index">
         <section>
             <h2>me when food 😳</h2>
         </section>
-
-        <hr>
-
-        <nav>
-            <a href="">home 🏡</a>
-            <a href="">all recipes 🥗</a>
-            <a href="">recipe by category 🥙</a>
-            <a href="">nice places to buy stuff 🛒</a>
-            <a href="">cooking tips 💡</a>
-        </nav>
-
         <hr>
         <section>
             <p>Hello 👋</p>
@@ -54,11 +43,7 @@
 
     </article>
 
-    <article class="footer">
-        <a href="">Hosted on GitHub Pages</a>
-        <a href="">Powered by Jekyll</a>
-        <a href="https://sanamorii.github.io">jiansu@sanamorii</a>
-    </article>
+    {% include footer.html %}
     
 </body>
 </html>

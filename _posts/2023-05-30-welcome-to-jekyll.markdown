@@ -1,29 +1,33 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "A great base recipe for egg fried rice"
 date:   2023-05-30 14:37:20 +0100
-categories: jekyll update
+summary: "A simple yet adaptable way to make egg fried rice the way you like it."
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Egg fried rice incredibly simple to make, you can also change some of the ingredients to whatever you want granted that they taste nice together.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+### Basic Information
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+| Allergens | Prep Time | Cost? |
+| :--: | :--: | :--: | 
+| Sesame<br>Egg<br>Gluten<br>MSG | 15~ minutes | idfk find out urself |
 
-Jekyll also offers powerful support for code snippets:
+### Ingredients
+ - 1 bowl of day of rice
+ - 1 egg
+ - 1/2 tsp chicken boullian powder
+ - 1 tbsp light soy sauce
+ - 1/2 tbsp dark soy sauce
+ - 1-2 cloves of garlic
+ - 2-3 spring onions
+ - 1 tsp seasame oil (preferable black sesame oil)  
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Optional Ingredients
+- some amound of chicken (any meat of your choice)
+- 1/2 cup of frozen peas (any veg of your choice - although i'd stick with peas, corn, or sweet pepper)
+- Anything else you want in it idk
+<br><br>
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### Like my playlist k thanks
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6Bb303TeKTpsDJymw0JYjK?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

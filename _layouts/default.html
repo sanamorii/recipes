@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/base.css">
+    <script src="{{site.baseurl}}/assets/js/tipoftheday.js"></script>
+    <script src="{{site.baseurl}}/assets/js/onload.js"></script>
+</head>
+<body>
+
+    {% include header.html %}
+    
+    {% include navigation.html %}
+
+    <article class="content">
+        {{content}}
+    </article>
+
+    {% include footer.html %}
+</body>
+</html>

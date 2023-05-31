@@ -1,0 +1,10 @@
+- name: home 🏡
+  link: /recipes/
+- name: all recipes 🥗
+  link: /recipes/list/
+- name: recipe by category 🥙
+  link: /recipes/category/
+- name: nice places to buy stuff 🛒
+  link: /recipes/guide/
+- name: cooking tips 💡
+  link: /recipes/link/
