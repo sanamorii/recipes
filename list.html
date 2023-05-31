@@ -6,11 +6,9 @@ permalink: /list/
 
 <h2>Recipes</h2>
 
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-        <br>{{post.summary}}
-    </li>
-    {% endfor %}
-</ul>
+{% for post in site.posts %}
+<hr>
+<h3><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h3>
+{{post.summary}}
+{% endfor %}
+<hr>

@@ -26,7 +26,8 @@ const MSG = [
     "www.youtube.com/watch?v=KYxsNJYgrgI",
     "number one tip when it comes to cooking: don't",
     "Curse you Perry the Platypus.",
-    "please do not the cat"
+    "please do not the cat",
+    "media responsive design is cringe"
 ]
 
 function randomSplash(){
