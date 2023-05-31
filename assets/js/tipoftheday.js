@@ -27,7 +27,8 @@ const MSG = [
     "number one tip when it comes to cooking: don't",
     "Curse you Perry the Platypus.",
     "please do not the cat",
-    "media responsive design is cringe"
+    "media responsive design is cringe",
+    "Curse you perry the frogge!"
 ]
 
 function randomSplash(){

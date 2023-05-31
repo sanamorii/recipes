@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "A great base recipe for egg fried rice"
+title:  "An Egg Fried This Rice?"
+author: "jiansu"
 date:   2023-05-30 14:37:20 +0100
 summary: "A simple yet adaptable way to make egg fried rice the way you like it."
 ---
@@ -28,6 +29,12 @@ Egg fried rice incredibly simple to make, you can also change some of the ingred
 - 1/2 cup of frozen peas (any veg of your choice - although i'd stick with peas, corn, or sweet pepper)
 - Anything else you want in it idk
 <br><br>
+
+### Instructions
+1. Turn on the stove
+2. Evacuate because you've set your house on fire
+
+Congrats, you've lost everything including the fried rice.
 
 ### Like my playlist k thanks
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6Bb303TeKTpsDJymw0JYjK?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
