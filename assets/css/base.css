@@ -6,12 +6,6 @@ html{
     margin: 0;
 }
 
-@font-face {
-    font-family: HelveticaNeue;
-    src: url("/assets/font/HelveticaNeue-Bold.otf");
-    font-weight: bold;
-}
-
 body{
     position: relative;
 
@@ -79,6 +73,7 @@ nav{
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
     margin: 15px 0;
@@ -86,6 +81,7 @@ nav{
 
 nav > a{
     font-size: 14px;
+    margin: 0 5px;
 }
 
 .header{
@@ -108,12 +104,40 @@ nav > a{
 }
 
 article{
-    min-width: 750px;
-    width: 1024px;
+    
     border: solid 2px black;
 
     padding: 18px 24px;
     box-sizing: border-box;
+
+    width: 1024px;
+}
+
+@media screen and (max-width: 1177.6px) {
+    article{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    h1{
+        font-size: 6vw;
+        line-height: 36px;
+        letter-spacing: 0.5vw;
+        text-align: center;
+    }
+    nav{
+        flex-direction: column;
+    }
+
+    nav > a{
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    article.footer{
+        flex-direction: column !important;
+    }
 }
 
 
@@ -143,6 +167,7 @@ article.content{
 article.index > section > ul > li{
     margin: 2px 0;
 }
+
 
 .links{
     display: flex;
