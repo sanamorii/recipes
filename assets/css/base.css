@@ -84,19 +84,27 @@ nav > a{
     margin: 0 5px;
 }
 
-.header{
+.pg-header{
+
+}
+
+.pg-header{
+    margin-top: 35px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+
+    padding: 22px 28px;
 }
 
-.header > h1, .header > h3{
+.pg-title, .pg-subtitle{
     text-transform: uppercase;
     margin: 0;
 }
 
-.header > h1 > c{
+.pg-header > h1 > c{
     top: 30px;
     font-size: 90px;
     line-height: 46px;
@@ -120,11 +128,17 @@ article{
 }
 
 @media screen and (max-width: 900px){
-    h1{
-        font-size: 6vw;
+    .pg-title{
+        font-size: 32px;
         line-height: 36px;
-        letter-spacing: 0.5vw;
-        text-align: center;
+    }
+
+    .pg-header{
+        padding: 9px 12px;
+    }
+
+    .pg-subtitle#splashtext{
+        font-size: 12px;
     }
     nav{
         flex-direction: column;
@@ -138,12 +152,6 @@ article{
     article.footer{
         flex-direction: column !important;
     }
-}
-
-
-article.header{
-    margin-top: 35px;
-    height: 150px;
 }
 
 article.nav{
@@ -162,10 +170,6 @@ article.content{
     height: 100%;
     min-height: 500px;
     
-}
-
-article.index > section > ul > li{
-    margin: 2px 0;
 }
 
 

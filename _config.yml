@@ -22,6 +22,6 @@ title: Jiansu Cooking
 email: sanamorii@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   shit food by a shit chef.
-baseurl: "/recipes" # the subpath of your site, e.g. /blog
+baseurl: "/recipebook" # the subpath of your site, e.g. /blog
 url: "sanamorii.github.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sanamorii
