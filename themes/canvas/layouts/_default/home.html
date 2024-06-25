@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+  <div class="content" id="home">
+    {{ .Content }}
+  </div>
+  
+  <div class="archive">
+    <h3>Recipes</h3>
+    
+    {{ $pages := (where .Site.RegularPages "Section" "recipes") }}
+    {{ if $pages }}
+    <ul>
+    {{ range $pages }}
+      <li><a href="{{ .RelPermalink }}">{{.Title }}</a></li>
+    {{ end }}
+    </ul>
+    {{ else }}
+    <p>Nothing to see yet :(</p>
+    {{ end }}
+    
+  </div>  
+
+{{ end }}

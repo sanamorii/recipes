@@ -1,0 +1,46 @@
+
+
+  {{ $duration := "" }}
+  {{ $speedSingle := default 1 (.Param "readingspeed") }}
+  {{ $speedMin := default 1 (.Param "readingspeedmin") }}
+  {{ $speedMax := default 1 (.Param "readingspeedmax") }}
+  {{ $durationSingle := math.Max 1 (div .WordCount $speedSingle) }}
+  {{ $durationMin := math.Max 1 (div .WordCount $speedMax) }}
+  {{ $durationMax := math.Max 1 (div .WordCount $speedMin) }}
+  {{ $durationRange := cond
+    (eq $durationMin $durationMax)
+    $durationMin
+    (print $durationMin "-" $durationMax)
+  }}
+  {{ if .Params.readingSpeedMin | and .Params.readingSpeedMax }}
+    {{ $duration = $durationRange }}
+  {{ else if .Params.readingSpeed }}
+    {{ $duration = $durationSingle }}
+  {{ else if .Site.Params.readingSpeedMin | and .Site.Params.readingSpeedMax }}
+    {{ $duration = $durationRange }}
+  {{ else if .Site.Params.readingSpeed }}
+    {{ $duration = $durationSingle }}
+  {{ else }}
+    {{ $duration = .ReadingTime }}
+  {{ end }}
+  
+<div class="meta" id="post">
+    <div id="time">
+        <strong>
+             Posted on <time>{{ .Date.Format (default "02 January 2006 15:04" .Site.Params.dateFmt) }}</time> 
+        </strong>     {{ with .WordCount }}<span> | {{ . }} words</span>{{ end }}
+        {{ with .ReadingTime}}<span> | {{ $duration }} minute read</span>{{ end }}   
+    </div>
+    
+
+
+    <div id="tags">
+        Tags:
+        {{ with .Params.tags }}
+        {{ range $key, $value := . }}
+            {{- if $key }}, {{ end }}
+            <a href="{{ "/tags/" | relLangURL }}{{ $value | urlize }}">{{ . }}</a>
+        {{- end }}
+        {{ end }}
+    </div>
+</div>

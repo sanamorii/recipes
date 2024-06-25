@@ -1,0 +1,16 @@
+<article class="summary">
+    <a href="{{ .Permalink }}">
+      <h3 class="title">{{ .Title }}</h3>
+      {{ with .Params.subtitle }}<h4 class="subtitle">{{ . }}</h4>{{ end }}
+    </a>
+    <div class="meta" id="post">
+      <strong>Posted on <time>{{ .Date.Format (default "02 January 2006 | 15:04" .Site.Params.dateFmt) }} </time></strong>
+    </div>
+    <div class="content">
+      <p>{{ .Summary }}</p>
+      {{ if .Truncated }}
+        <a href="{{ .Permalink }}">Read more...</a>
+      {{ end }}
+    </div>
+</article>
+  

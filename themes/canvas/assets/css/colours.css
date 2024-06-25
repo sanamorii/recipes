@@ -1,0 +1,85 @@
+body {
+    --text: #4a4a4a;
+    --background: #f9f9f9;
+    --primary: #b15f5c;
+    --secondary: #d2c3a1;
+    --accent: #c0bb7c;
+    --link: #1d7484;
+    --visited: #144f5a;
+    --hover: #982c61;
+
+    --svg-bg: invert(36%) sepia(65%) saturate(518%) hue-rotate(142deg) brightness(90%) contrast(89%);
+    --svg-hover: invert(24%) sepia(18%) saturate(7228%) hue-rotate(304deg) brightness(84%) contrast(86%);
+}
+
+body.dark-theme{
+    --text: #c9c9c9;
+    --background: #222222;
+    --primary: #b15f5c;
+    --secondary: #d2c3a1;
+    --accent: #c0bb7c;
+    --link: #ffffff;
+    --visited: #e6e6e6;
+    --hover: #c9c9c9;
+
+    --svg-bg: invert(100%) sepia(6%) saturate(7500%) hue-rotate(285deg) brightness(109%) contrast(104%);
+    --svg-hover: invert(86%) sepia(0%) saturate(44%) hue-rotate(213deg) brightness(104%) contrast(74%);
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        --text: #c9c9c9;
+        --background: #222222;
+        --primary: #b15f5c;
+        --secondary: #d2c3a1;
+        --accent: #c0bb7c;
+        --link: #ffffff;
+        --visited: #e6e6e6;
+        --hover: #c9c9c9;
+
+        --svg-bg: invert(100%) sepia(6%) saturate(7500%) hue-rotate(285deg) brightness(109%) contrast(104%);
+        --svg-hover: invert(86%) sepia(0%) saturate(44%) hue-rotate(213deg) brightness(104%) contrast(74%);
+    }
+
+    body.light-theme{
+        --text: #4a4a4a;
+        --background: #f9f9f9;
+        --primary: #b15f5c;
+        --secondary: #d2c3a1;
+        --accent: #c0bb7c;
+        --link: #1d7484;
+        --visited: #144f5a;
+        --hover: #982c61;
+
+        --svg-bg: invert(36%) sepia(65%) saturate(518%) hue-rotate(142deg) brightness(90%) contrast(89%);
+        --svg-hover: invert(24%) sepia(18%) saturate(7228%) hue-rotate(304deg) brightness(84%) contrast(86%);
+    }
+}
+
+/* [data-theme="light"] {
+    --text: #4a4a4a;
+    --background: #f9f9f9;
+    --primary: #b15f5c;
+    --secondary: #d2c3a1;
+    --accent: #c0bb7c;
+    --link: #1d7484;
+    --visited: #144f5a;
+    --hover: #982c61;
+
+    --svg-bg: invert(36%) sepia(65%) saturate(518%) hue-rotate(142deg) brightness(90%) contrast(89%);
+    --svg-hover: invert(24%) sepia(18%) saturate(7228%) hue-rotate(304deg) brightness(84%) contrast(86%);
+}
+ 
+[data-theme="dark"] {
+    --text: #c9c9c9;
+    --background: #222222;
+    --primary: #b15f5c;
+    --secondary: #d2c3a1;
+    --accent: #c0bb7c;
+    --link: #ffffff;
+    --visited: #e6e6e6;
+    --hover: #c9c9c9;
+
+    --svg-bg: invert(100%) sepia(6%) saturate(7500%) hue-rotate(285deg) brightness(109%) contrast(104%);
+    --svg-hover: invert(86%) sepia(0%) saturate(44%) hue-rotate(213deg) brightness(104%) contrast(74%);
+} */

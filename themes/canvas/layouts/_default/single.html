@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+  <div class="title" id="post">
+    <h1>{{ .Title }}</h1>
+  </div>
+  
+  
+  {{ partial "post-meta.html" . }}
+
+
+  <div class="content" id="post">
+    {{ .Content }}
+  </div>
+
+
+  {{ partial "breadcrumb.html" . }}
+{{ end }}

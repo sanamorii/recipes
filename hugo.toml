@@ -1,0 +1,25 @@
+baseURL = 'https://recipes.sanamorii.com/'
+languageCode = 'en-gb'
+title = 'recipebook'
+theme='canvas'
+
+[menu]
+[[menu.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menu.main]]
+name = 'Ingredients'
+pageRef = '/ingredients'
+weight = 20
+
+[[menu.main]]
+name = 'Equipment'
+pageRef = '/equipment'
+weight = 30
+
+[[menu.main]]
+name = 'Recipes by Tag'
+pageRef = '/tags'
+weight = 40

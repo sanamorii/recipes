@@ -1,0 +1,52 @@
+
+.index.card-1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.index.card-1 img{
+  width: 12rem;
+  height: 12rem;
+  margin: .5em;
+  border-radius: 50em;
+}
+
+.index.card-1 .introduction {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 618px) {
+  .index.card-1{
+    flex-direction: column;
+  }
+
+  .index.card-1 img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .index.card-1 .introduction{
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+}
+
+.dm-toggle {
+  width: 25x;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  margin-top: 1.125rem;
+}
+
+.dm-toggle svg {
+  width: 25px;
+  height: 25px;
+  filter: var(--svg-bg);
+}
+
+.dm-toggle svg:hover {
+  filter: var(--svg-hover);
+}

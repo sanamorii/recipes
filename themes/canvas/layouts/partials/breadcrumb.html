@@ -1,0 +1,15 @@
+<div class="breadcrumb">
+
+    {{ with .PrevInSection }}
+    <div id="prev">
+        <a href="{{ .Permalink }}">Previous: {{ .Title }}</a>
+    </div>
+    {{ end }}
+  
+
+    {{ with .NextInSection }}
+    <div id="next">
+        <a href="{{ .Permalink }}">Next: {{ .Title }}</a>
+    </div>
+    {{ end }}
+</div>
